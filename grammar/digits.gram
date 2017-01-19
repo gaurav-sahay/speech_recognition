@@ -1,0 +1,12 @@
+#JSGF V1.0;
+
+/**
+ * JSGF Digits Grammar file
+ */
+
+grammar digits;
+
+public <miscellaneous> = (sleep);
+public <greeting> = (hi pi);
+public <command> = (/20/tell me the time | /50/tell me the schedule for today);
+
